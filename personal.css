@@ -116,12 +116,12 @@ main hr{
     width: 40px;
     position: relative;
     left: -17px;
-    bottom: 40px;
+    bottom: 86px;
 }
 
 .heding1 {
     position: relative;
-    top: 42px;
+    /* top: 42px; */
     left: -54px;
     width: 126px;
 }
@@ -131,7 +131,7 @@ main hr{
     color: gray;
     width: 203px;
     position: relative;
-    top: 45px;
+    /* top: 45px; */
     left: -70px;
 }
 
@@ -204,7 +204,12 @@ main hr{
     left: -79px;
 }
 
-
+.car{
+    width: 40px;
+    position: relative;
+    left: -177px;
+    bottom: 30px;
+}
 
 /* 
 nav .right ul li a:before {
