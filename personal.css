@@ -1,0 +1,305 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    background-color: rgb(55, 55, 131);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+    /* position: relative;
+    overflow: hidden; */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+
+}
+
+nav ul li a:hover {
+    color: rgb(188, 188, 249);
+    font-size: 1.02rem;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    margin: 150px 0;
+    align-items: center;
+}
+
+.firstsection>div {
+    width: 30%;
+}
+
+
+.leftsection {
+    font-size: 3rem;
+}
+
+main hr {
+    border: 0;
+    background-color: #9c97f1;
+    height: 1.2px;
+    /* margin: 40px 84px; */
+}
+
+main hr{
+    margin: 20px;
+}
+
+.rightsection img {
+    width: 80%;
+}
+
+.purple {
+    color: rgb(170, 107, 228);
+}
+
+#element {
+    color: rgb(170, 107, 228);
+}
+
+.secondsection {
+    max-width: 90vw;
+    margin: auto;
+    height: 50vh;
+}
+
+.secondsection h1 {
+    font-size: 1.9rem;
+}
+
+.text-gray {
+    color: gray;
+}
+
+.secondsection .box {
+    background-color: white;
+    width: 100vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+
+.secondsection .vartical {
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 175px;
+}
+
+.vartical .htmllogo {
+    width: 40px;
+    position: relative;
+    left: -17px;
+    bottom: 40px;
+}
+
+.heding1 {
+    position: relative;
+    top: 42px;
+    left: -54px;
+    width: 126px;
+}
+
+.innertext1 {
+    font-size: 10px;
+    color: gray;
+    width: 203px;
+    position: relative;
+    top: 45px;
+    left: -70px;
+}
+
+.vartical .csslogo {
+    position: relative;
+    width: 40px;
+    top: -40px;
+    left: -17px;
+}
+
+.heding2 {
+    position: relative;
+    top: 42px;
+    left: -54px;
+    width: 126px;
+}
+
+.innertext2 {
+    font-size: 10px;
+    color: gray;
+    width: 203px;
+    position: relative;
+    top: 45px;
+    left: -70px;
+}
+
+.vartical .jslogo {
+    position: relative;
+    width: 40px;
+    top: -40px;
+    left: -17px;
+}
+
+.heding3 {
+    position: relative;
+    top: 44px;
+    left: -68px;
+    width: 175px;
+}
+
+.innertext3 {
+    font-size: 10px;
+    color: gray;
+    width: 203px;
+    position: relative;
+    top: 47px;
+    left: -79px;
+}
+
+.vartical .reactlogo {
+    position: relative;
+    width: 40px;
+    top: -38px;
+    left: -17px;
+}
+
+.heding4 {
+    position: relative;
+    top: 44px;
+    left: -47px;
+    width: 175px;
+}
+
+.innertext4 {
+    font-size: 10px;
+    color: gray;
+    width: 203px;
+    position: relative;
+    top: 47px;
+    left: -79px;
+}
+
+
+
+/* 
+nav .right ul li a:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    height: 0.5rem;
+    background-color: rgb(255, 5, 5);
+    left: -100%;
+}
+
+nav .right ul li a:hover:before {
+    animation: coolNavline .4s linear forwards;
+}
+
+@keyframes coolNavline {
+    0% {
+        left: -100%;
+        height: .5rem;
+    }
+
+    50% {
+        left: 0;
+        height: .5rem;
+    }
+
+    100% {
+        left: 0;
+        height: 100%;
+    }
+}
+
+ul li a:hover {
+    color: white;
+
+} */
+
+
+footer {
+    background-color: rgb(16 19 42);
+    height: 300px;
+}
+
+.flex .footer-second {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer-first h1 {
+    padding: 40px 60px;
+}
+
+.flex .footer-third {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.flex .footer-fourth {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.footer-second a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.footer-third a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.footer-fourth a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+footer .copy a {
+    color: white;
+    text-decoration: none;
+}
+
+.copy {
+ margin-top: 30px;
+ margin-left: 514px;   
+}
+
+
+/* 1860 */
