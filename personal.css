@@ -135,6 +135,10 @@ main hr{
     left: -70px;
 }
 
+.none{
+    display: none;
+}
+
 .vartical .csslogo {
     position: relative;
     width: 40px;
