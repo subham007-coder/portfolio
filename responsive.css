@@ -35,21 +35,21 @@
     }
 }
 
-@media (max-width:1455px) and (min-width:375px) {
+/* @media (max-width:1455px) and (min-width:375px) {
     .secondsection .box {
         width: 1302px;
     }
-}
+} */
 
-@media (max-width:1355px) and (min-width:375px) {
+/* @media (max-width:1355px) and (min-width:375px) {
     main hr{
         width: 82rem;
     }
-}
+} */
 
-@media (max-width:1355px) and (min-width:375px) {
+/* @media (max-width:1355px) and (min-width:375px) {
   footer{
     width: 1389px;
   }
 
-}
+} */

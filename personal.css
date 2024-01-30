@@ -7,6 +7,7 @@ body {
     background-color: rgb(0, 0, 33);
     color: white;
     font-family: 'Poppins', sans-serif;
+    /* overflow-x: hidden; */
 }
 
 nav {
@@ -47,7 +48,7 @@ nav ul li a:hover {
 .firstsection {
     display: flex;
     justify-content: space-around;
-    margin: 150px 0;
+    /* margin: 150px 0; */
     align-items: center;
 }
 
@@ -121,7 +122,7 @@ main hr{
 
 .heding1 {
     position: relative;
-    /* top: 42px; */
+    top: 42px;
     left: -54px;
     width: 126px;
 }
@@ -131,12 +132,8 @@ main hr{
     color: gray;
     width: 203px;
     position: relative;
-    /* top: 45px; */
+    top: 45px;
     left: -70px;
-}
-
-.none{
-    display: none;
 }
 
 .vartical .csslogo {
@@ -270,6 +267,11 @@ ul li a:hover {
 footer {
     background-color: rgb(16 19 42);
     height: 300px;
+    margin-top: 100px;
+}
+
+.flex{
+    margin: 57px;
 }
 
 .flex .footer-second {
