@@ -116,7 +116,7 @@ main hr{
     width: 40px;
     position: relative;
     left: -17px;
-    bottom: 86px;
+    bottom: 39px;
 }
 
 .heding1 {
@@ -211,9 +211,22 @@ main hr{
 .car{
     width: 40px;
     position: relative;
-    left: -177px;
-    bottom: 30px;
+    /* left: 177px; */
+    bottom: -73px;
 }
+
+/* .carAni{
+    animation: carani 1s linear;
+}
+
+@keyframes carani {
+    0%{
+        left: 0;
+    }
+    100%{
+        left: 120px;
+    }
+} */
 
 /* 
 nav .right ul li a:before {
