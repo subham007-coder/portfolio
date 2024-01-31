@@ -45,6 +45,10 @@ nav ul li a:hover {
     font-size: 1.5vw;
 }
 
+main{
+    height: 770px;
+}
+
 .firstsection {
     display: flex;
     justify-content: space-around;
@@ -212,68 +216,59 @@ main hr{
     bottom: -73px;
 }
 
-/* .carAni{
-    animation: carani 1s linear;
-}
-
-@keyframes carani {
-    0%{
-        left: 0;
-    }
-    100%{
-        left: 120px;
-    }
-} */
-
 footer {
     background-color: rgb(16 19 42);
     height: 300px;
-    margin-top: 100px;
-}
-
-.flex{
-    margin: 57px;
-}
-
-.flex .footer-second {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    /* margin-top: 100px; */
 }
 
 .footer-first h1 {
-    padding: 40px 60px;
-}
-
-.flex .footer-third {
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
+    justify-content: left;
+    padding: 20px;
 }
 
-.flex .footer-fourth {
+.footer-second{
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 52px;
 }
 
+.footer-third{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 65px;
+}
+
+.footer-fourth{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 45px;
+}
 
 .footer-second a {
     color: white;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 1.5vw;
 }
 
 .footer-third a {
     color: white;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 1.5vw;
 }
 
 .footer-fourth a {
     color: white;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 1.5vw;
 }
 
 footer .copy a {
